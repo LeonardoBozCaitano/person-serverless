@@ -3,24 +3,24 @@ Projeto para salvar e processar dados referentes a pessoa.
 
 ### Classes
 - person
-- - id: UUID
-- - name: String
-- - email: String
-- - cpf: String
-- - birthDate: Date
-- - contactNumber: String
-- - Address: 
-- - - city: String
-- - - street: String
-- - - cep: String
-- - - number: String
-- - status: Enum Status
-- - message: String
+    - id: UUID
+    - name: String
+    - email: String
+    - cpf: String
+    - birthDate: Date
+    - contactNumber: String
+    - Address: 
+        - city: String
+        - street: String
+        - cep: String
+        - number: String
+    - status: Enum Status
+    - message: String
 
 - Status
-- - processing - Aguardando processamento
-- - approved - Cadastro aprovado
-- - refused - Cadastro recusado
+    - processing - Aguardando processamento
+    - approved - Cadastro aprovado
+    - refused - Cadastro recusado
 
 ### Eventos
 - POST /person
